@@ -44,8 +44,8 @@ function addGamesToPage(games) {
     gameDiv.classList.add("game-card");
 
     gameDiv.innerHTML = `
-        <h4 class="game-name">${games[i].name}<h4>
         <img src="${games[i].img}" class="game-img">
+        <h3 class="game-name">${games[i].name}</h3>
         <p class="game-description">${games[i].description}</p>
         `;
 
@@ -78,6 +78,21 @@ const raisedCard = document.getElementById("total-raised");
 
 // grab number of games card and set its inner HTML
 const gamesCard = document.getElementById("num-games");
+
+const totalContributions = GAMES_JSON.reduce((acc, contribution) => {
+  return acc + contribution.backers;
+}, 0);
+contributionsCard.innerHTML = `${totalContributions.toLocaleString("en-US")}`;
+
+const totalRaised = GAMES_JSON.reduce((acc, money) => {
+  return acc + money.pledged;
+}, 0);
+raisedCard.innerHTML = `$${totalRaised.toLocaleString("en-US")}`;
+
+const totalGames = GAMES_JSON.reduce((acc, game) => {
+  return acc + 1;
+}, 0);
+gamesCard.innerHTML = `${totalGames}`;
 
 /*************************************************************************************
  * Challenge 5: Add functions to filter the funded and unfunded games
