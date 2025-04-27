@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/gallery/codepath-102-prework-kn-y43uZRX)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Website Walkthrough](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzh1MGdpbzFxazVhMnNseW4yYzAwcTRwemphM2hpMHg1MW4wYTAwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHuFxOU0gTshj9fPPa/giphy.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap v1.32
