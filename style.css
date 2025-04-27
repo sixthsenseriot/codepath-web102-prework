@@ -104,10 +104,16 @@ p {
 .stats-card {
   background: linear-gradient(var(--primary-color), #00253f);
   border-radius: 7px;
-  padding: 1%;
+  padding-bottom: 20px;
   margin: 1%;
   width: 100%;
   text-align: center;
+}
+
+.first-game-img,
+.second-game-img {
+  width: 50%;
+  border-radius: 5px;
 }
 
 #num-contributions,

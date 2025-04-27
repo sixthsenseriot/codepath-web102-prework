@@ -216,15 +216,23 @@ const [firstGame, secondGame, ...otherGames] = sortedGames;
 const firstGameNameHeader = document.createElement("h4");
 firstGameNameHeader.classList.add("first-game-name");
 firstGameNameHeader.innerHTML = `${firstGame.name}`;
-
 firstGameContainer.appendChild(firstGameNameHeader);
+
+const firstGameImg = document.createElement("img");
+firstGameImg.classList.add("first-game-img");
+firstGameImg.src = `${firstGame.img}`;
+firstGameContainer.appendChild(firstGameImg);
 
 // do the same for the runner up item
 const secondGameNameHeader = document.createElement("h4");
 secondGameNameHeader.classList.add("second-game-name");
 secondGameNameHeader.innerHTML = `${secondGame.name}`;
-
 secondGameContainer.appendChild(secondGameNameHeader);
+
+const secondGameImg = document.createElement("img");
+secondGameImg.classList.add("second-game-img");
+secondGameImg.src = `${secondGame.img}`;
+secondGameContainer.appendChild(secondGameImg);
 
 /*************************************************************************************
  */
