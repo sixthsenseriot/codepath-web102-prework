@@ -24,10 +24,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/gallery/codepath-102-prework-kn-y43uZRX)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap v1.32
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -35,11 +35,15 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One of the biggest challenges I faced during the development of the website was keeping track of the logic in my code, particularly when using built-in JavaScript functions such as `filter()` and `reduce()`, as well as operators like the spread operator. It was sometimes tricky to ensure that these functions and operators were being applied correctly, especially when dealing with different declared variables.
+
+To overcome this, I made sure to thoroughly document each JavaScript topic I encountered during the prework challenges. As I read through online documentation, I recorded my notes in Obsidian, which helped me understand the concepts more deeply. Additionally, to debug my code and better understand the output, I frequently used `console.log()`. This allowed me to track the flow of data through my program and quickly identify and fix any issues in the logic.
+
+Through this process, I not only strengthened my understanding of JavaScript but also gained valuable insights into the effectiveness of DOM manipulation. Furthermore, I became more familiar with the terminology in JavaScript, such as "template literals" and the "ternary operator," which I had used before but never fully understood the proper terms for.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Khanh Nguyen
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
