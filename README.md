@@ -26,6 +26,8 @@ Here's a walkthrough of implemented features:
 
 ![Website Walkthrough](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzh1MGdpbzFxazVhMnNseW4yYzAwcTRwemphM2hpMHg1MW4wYTAwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cHuFxOU0gTshj9fPPa/giphy.gif)
 
+[Link for Better Viewing of Walkthrough](https://imgur.com/gallery/codepath-web-dev-prework-kn-6nqzRRT)
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap v1.32
 <!-- Recommended tools:
