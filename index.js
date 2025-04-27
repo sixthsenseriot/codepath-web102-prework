@@ -180,7 +180,10 @@ const gameFundingStr = `
       "en-US"
     )} has been raised for ${totalFunded.toLocaleString("en-US")} ${
   totalFunded > 1 ? "games" : "game"
-}. Currently, ${totalUnfunded.toLocaleString("en-US")} ${
+}. 
+<br>
+<br>
+Currently, ${totalUnfunded.toLocaleString("en-US")} ${
   totalUnfunded > 1 ? "games" : "game"
 } remains unfunded. 
 We need your help to fund ${totalUnfunded.toLocaleString("en-US")} ${
