@@ -1,36 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
 
+:root {
+  --primary-color: #003459;
+  --secondary-color: #00171f;
+  --tertiary-color: #09131c;
+  --accent-color: #1b4760;
+  --off-white: #e5e8e9;
+}
+
 body {
   font-family: "Cabin";
-  background-color: #758190;
+  background: var(--primary-color);
+  color: var(--off-white);
+}
+
+p {
+  color: #dddddd;
 }
 
 #tentacles {
-  width: 50px;
+  height: 2em;
+  width: auto;
+  margin-right: 10px;
 }
 
 .header {
   display: flex;
-  background-color: lightblue;
-  padding: 1%;
+  background-color: var(--secondary-color);
+  padding: 5px 10px 5px 10px;
   align-items: center;
   margin-left: -10px;
   margin-right: -10px;
   margin-top: -10px;
 }
 
+.header-text {
+  font-size: 1em;
+}
+
+.hero-section {
+  background: linear-gradient(var(--primary-color), var(--accent-color));
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+  padding: 80px 0 80px 0;
+}
+
+.hero-header {
+  font-size: 2em;
+}
+
+.stats-section {
+  padding: 10px 20px 30px 20px;
+  background-color: var(--secondary-color);
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .stats-container {
   display: flex;
   align-items: flex-start;
   cursor: pointer;
+  transition: all 100ms ease-in-out;
 }
 
 .stats-container:hover {
-  box-shadow: 0 0 30px lightblue;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .stats-card {
-  background-color: #a8b0bc;
+  background: linear-gradient(var(--primary-color), #00253f);
   border-radius: 7px;
   padding: 1%;
   margin: 1%;
@@ -44,6 +83,12 @@ body {
   font-size: 50px;
 }
 
+.games-section {
+  text-align: center;
+  padding: 40px 0 40px 0;
+  background: linear-gradient(var(--accent-color), var(--primary-color));
+}
+
 #games-container {
   display: flex;
   flex-wrap: wrap;
@@ -53,21 +98,21 @@ body {
 .game-img {
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0 0 10px #ffffff;
 }
 
 .game-card {
-  background-color: #ffffff;
+  background-color: var(--tertiary-color);
   padding: 1%;
   margin: 1%;
   width: 300px;
   text-align: center;
   border-radius: 7px;
+  transition: all 100ms ease-in-out;
 }
 
 .game-card:hover {
   cursor: pointer;
-  box-shadow: 0 0 30px lightblue;
+  box-shadow: lightblue 0px 3px 8px;
 }
 
 #search-input {
@@ -89,8 +134,10 @@ button {
   padding: 1%;
   margin: 0.5%;
   border-radius: 7px;
+  transition: all 100ms ease-in-out;
 }
 
 button:hover {
   cursor: pointer;
+  background: #aeaeae;
 }
