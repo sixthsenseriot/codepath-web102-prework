@@ -239,6 +239,7 @@ secondGameContainer.appendChild(secondGameImg);
 
 const inputGameSearch = document.getElementById("search-input");
 const buttonGameSearch = document.getElementById("search-games");
+const buttonClearSearch = document.getElementById("clear-input");
 
 function performSearch() {
   const inputValue = inputGameSearch.value.toLowerCase();
@@ -256,4 +257,9 @@ inputGameSearch.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     performSearch();
   }
+});
+
+buttonClearSearch.addEventListener("click", (event) => {
+  inputGameSearch.value = "";
+  performSearch();
 });
