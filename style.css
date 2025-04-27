@@ -47,7 +47,7 @@ body {
 #games-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .game-img {
@@ -70,6 +70,15 @@ body {
   box-shadow: 0 0 30px lightblue;
 }
 
+#search-input {
+  border: none;
+  padding: 1%;
+  margin: 0.5%;
+  border-radius: 7px;
+  font-size: 14px;
+  width: 20em;
+}
+
 #button-container {
   text-align: center;
 }
@@ -78,6 +87,10 @@ button {
   font-family: "Cabin";
   border: none;
   padding: 1%;
-  margin: 1%;
+  margin: 0.5%;
   border-radius: 7px;
+}
+
+button:hover {
+  cursor: pointer;
 }

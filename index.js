@@ -222,3 +222,27 @@ secondGameNameHeader.classList.add("second-game-name");
 secondGameNameHeader.innerHTML = `${secondGame.name}`;
 
 secondGameContainer.appendChild(secondGameNameHeader);
+
+/*************************************************************************************
+ */
+
+const inputGameSearch = document.getElementById("search-input");
+const buttonGameSearch = document.getElementById("search-games");
+
+function performSearch() {
+  const inputValue = inputGameSearch.value.toLowerCase();
+
+  const searchResult = GAMES_JSON.filter((game) => {
+    return game.name.toLowerCase().includes(inputValue);
+  });
+
+  deleteChildElements(gamesContainer);
+  addGamesToPage(searchResult);
+}
+
+buttonGameSearch.addEventListener("click", performSearch);
+inputGameSearch.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    performSearch();
+  }
+});
