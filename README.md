@@ -1,4 +1,4 @@
-# WEB102 Prework - *Sea Monster*
+# 🐙 Sea Monster - WEB102 Prework
 
 Submitted by: **Khanh Nguyen**
 
@@ -6,7 +6,7 @@ Submitted by: **Khanh Nguyen**
 
 Time spent: **20** hours spent in total
 
-## Required Features
+## 🛠️ Required Features
 
 The following **required** functionality is completed:
 
@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 * [x] The Our Games section has a search bar with an input and two buttons that allow the user to search and clear their input.
 * [x] The navbar has two links that direct the user to jump to the Stats and Our Games sections quickly.
 
-## Video Walkthrough
+## 📽️ Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
@@ -35,7 +35,7 @@ GIF created with LICEcap v1.32
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-## Notes
+## 📝 Notes
 
 One of the biggest challenges I faced during the development of the website was keeping track of the logic in my code, particularly when using built-in JavaScript functions such as `filter()` and `reduce()`, as well as operators like the spread operator. It was sometimes tricky to ensure that these functions and operators were being applied correctly, especially when dealing with different declared variables.
 
@@ -43,7 +43,7 @@ To overcome this, I made sure to thoroughly document each JavaScript topic I enc
 
 Through this process, I not only strengthened my understanding of JavaScript but also gained valuable insights into the effectiveness of DOM manipulation. Furthermore, I became more familiar with the terminology in JavaScript, such as "template literals" and the "ternary operator," which I had used before but never fully understood the proper terms for.
 
-## License
+## 📄 License
 
     Copyright 2025 Khanh Nguyen
 
