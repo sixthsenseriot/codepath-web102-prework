@@ -4,6 +4,8 @@ Submitted by: **Khanh Nguyen**
 
 **Sea Monster** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
+🔗 [View Live Website](https://seamonster.netlify.app/)
+
 Time spent: **20** hours spent in total
 
 ## 🛠️ Required Features
