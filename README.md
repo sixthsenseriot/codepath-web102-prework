@@ -31,7 +31,7 @@ Here's a walkthrough of implemented features:
 🔗 [Link for Better Viewing of Walkthrough](https://imgur.com/gallery/codepath-web-dev-prework-kn-6nqzRRT)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LICEcap v1.32
+GIF created with [LICEcap v1.32](https://www.cockos.com/licecap/)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
